@@ -142,7 +142,7 @@ header {
 header .logo {
   gap: 10px;
   color: white;
-  font-size: 30px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -155,7 +155,7 @@ header nav ul {
   display: flex;
   gap: 15px;
   list-style-type: none;
-  font-size: 25px;
+  font-size: 22px;
   color: aliceblue;
 }
 
@@ -209,4 +209,59 @@ header nav ul {
   color: blue;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+/* Section Kontak */
+#kontak {
+  background-color: #f9f9f9;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+/* Judul */
+#kontak h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#kontak p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+#kontak ul {
+  list-style: none;
+  padding: 0;
+}
+
+#kontak ul li {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
+
+#kontak ul li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#kontak ul li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.footer{
+  font-size: 15px;
+  text-align: center;
+}
+.footer nav ul li a {
+    text-align: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
 }
