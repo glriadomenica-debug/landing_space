@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main>
+      <h1>Hubungi Kami</h1>
+      <p>Isi Formulir di bawah dan tim kami akan segera menghubungi kamu.</p>
+
+      <form action="">
+        <fieldset>
+          <legend style="color: blue; font-weight: bold">
+            INFORMASI PRIBADI
+          </legend>
+          <label for="">Nama Lengkap *</label><br />
+          <input
+            type="text"
+            id=""
+            placeholder="Masukkan nama lengkap kamu"
+            required
+          /><br /><br />
+          <label>Email *</label><br />
+          <input
+            type="email"
+            placeholder="nama@domain.com"
+            required
+          /><br /><br />
+          <label>Nomor Telepon</label><br />
+          <input type="tel" placeholder="08xxxxxxxxxxxx" required />
+        </fieldset>
+      </form>
+      <br />
+
+      <form>
+        <fieldset>
+          <legend style="color: blue; font-weight: bold">DETAIL PESAN</legend>
+          <label>Subjek</label><br />
+          <select required>
+            <option>---Pilih Subjek</option>
+            <option>Pertanyaan umum</option>
+            <option>Demo</option>
+            <option>Keluhan</option>
+            <option>Lainnya</option>
+          </select>
+          <br />
+          <br />
+          <label for="">Pesan *</label><br />
+          <textarea
+            rows="6"
+            cols="100"
+            placeholder="Ceritakan kebutuhan atau pertanyaan kamu..."
+            required
+          ></textarea
+          ><br /><br />
+          <label for="">Lampiran (opsional)</label><br /><br />
+          <input type="file" accept=".pdf,image/*" multiple placeholder="" />
+          <p style="color: darkgray">
+            Format : PDF, JPG, PNG, DOC. Maksimal 5MB per file
+          </p>
+        </fieldset>
+      </form>
+      <br />
+
+      <form action="">
+        <fieldset>
+          <legend style="color: blue; font-weight: bold">PREFERENSI</legend>
+          <label for="">Bagaimana kamu ingin kami menghubungi kamu?</label
+          ><br /><br />
+          <input type="radio" name="email" value="" required />
+          <label for="email">Email</label>
+          <input type="radio" name="telepon" value="" required />
+          <label for="telepom">Telepon</label>
+          <input type="radio" name="whatsapp" value="" required />
+          <label for="whatsapp">WhatsApp</label><br /><br />
+
+          <input type="checkbox" name="" id="" required /><br />
+          <label for=""
+            >Saya ingin menerima newsletter dan update terbaru dari
+            TechStart</label
+          ><br />
+
+          <input type="checkbox" name="" id="" required /><br />
+          <label for=""
+            >Saya menyetujui
+            <strong style="color: blue; font-weight: bold"
+              >Kebijakan Privasi</strong
+            >
+            dan
+            <strong style="color: blue; font-weight: bold">
+              Syarat & Ketentuan</strong
+            >
+            TechStart*</label
+          >
+        </fieldset>
+      </form>
+      <br />
+
+      <button type="submit">Kirim Pesan</button>
+      <button type="reset">Reset Form</button>
+      <p style="color: darkgray">* Field wajib diisi</p>
+
+      <table>
+        <h1>Daftar Klien Kami</h1>
+        <thead>
+          <td>NO</td>
+          <td>NAMA KLIEN</td>
+          <td>INDUSTRI</td>
+          <td>KOTA</td>
+          <td>BERGABUNG</td>
+          <td>STATUS</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>PT Belanja Nusantara</td>
+            <td rowspan="2">E-Commerce</td>
+            <td>Jakarta</td>
+            <td>Januari 2024</td>
+            <td>Aktif</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>CV Toko Digital</td>
+            <td>Bandung</td>
+            <td>Maret 2024</td>
+            <td>Aktif</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>PT FinTech Maju</td>
+            <td rowspan="2">FinTech</td>
+            <td>Jakarta</td>
+            <td>Juli 2023</td>
+            <td>Aktif</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Koperasi Digital Sejahtera</td>
+            <td>Surabaya</td>
+            <td>Oktober 2023</td>
+            <td>Aktif</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>RS Sehat Selalu</td>
+            <td>Healthcare</td>
+            <td>Medan</td>
+            <td>Agustus 2022</td>
+            <td>Aktif</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Yayasan Belajar Pintar</td>
+            <td rowspan="2">Pendidikan</td>
+            <td>Yogyakarta</td>
+            <td>Februari 2023</td>
+            <td>Aktif</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>PT EduTech Indonesia</td>
+            <td>Jakarta</td>
+            <td>Mei 2024</td>
+            <td>Tidak Aktif</td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>CV Kirim Cepat</td>
+            <td>Logistik</td>
+            <td>Semarang</td>
+            <td>November 2024</td>
+            <td>Aktif</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5" style="text-align: left">Total Klien Aktif</td>
+            <td>7 dari 8</td>
+          </tr>
+        </tfoot>
+      </table>
+      <p style="color: darkgray">Data Klien TechStart per Februari 2026</p>
+    </main>
+  </body>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</html>
