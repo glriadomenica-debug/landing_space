@@ -258,10 +258,3 @@ header nav ul {
   font-size: 15px;
   text-align: center;
 }
-.footer nav ul li a {
-    text-align: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-}
