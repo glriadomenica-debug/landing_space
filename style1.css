@@ -1,0 +1,49 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: rgb(25, 24, 24);
+  font-style: italic;
+  font-weight: bold;
+}
+.title2 {
+  color: grey;
+}
+.nama {
+  color: blue;
+}
+h2 {
+  color: chocolate;
+  font-weight: bold;
+}
+.fwd {
+  color: forestgreen;
+}
+.running-text {
+  position: relative;
+  white-space: nowrap;
+  animation: moveText 10s linear infinite;
+}
+@keyframes moveText {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+.hero {
+  background-color: rgb(152, 218, 183);
+  padding: 40px;
+  text-align: justify;
+}
+.archivo {
+     font-family: "Archivo Black", sans-serif;
+}
+
+#produk .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}

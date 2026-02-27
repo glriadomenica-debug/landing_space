@@ -4,64 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Start</title>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-      .running-text {
-        position: relative;
-        white-space: nowrap;
-        animation: moveText 8s linear infinite;
-      }
-      @keyframes moveText {
-        from {
-          left: -100%;
-        }
-        to {
-          left: 100%;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <header
-    style="
-      background-color: deepskyblue;
-      justify-content: space-between;
-      display: flex;
-    "
-  >
-    <!-- <img src="" alt="fb logo" width="30"> -->
-    <a href="textstart">
+  <header>
+    <a class="logo" href="textstart">
       <img
         src="https://static.vecteezy.com/system/resources/previews/022/996/345/original/3d-space-rocket-render-with-transparent-background-free-png.png"
         alt="logo rocket"
         width="90"
       />
-      <p style="font-size: 26px">Tech Start</p></a
+      <p>Tech Start</p></a
     >
-    <nav style="font-size: 23px; padding: 40px">
-      <ul type="none" style="display: flex; gap: 20px">
+    <nav>
+      <ul>
         <li>
-          <a href="#hero">Home</a>
+          <a
+            href="#hero"
+            class="css-4rbku5 r-1awozwy r-kdyh1x r-6koalj r-88pszg r-1p6iasa r-1pn2ns4"
+            >Home</a
+          >
         </li>
         <li>
-          <a href="#layanan">Layanan</a>
+          <a
+            href="#layanan"
+            class="css-4rbku5 r-1awozwy r-kdyh1x r-6koalj r-88pszg r-1p6iasa r-1pn2ns4"
+            >Layanan</a
+          >
         </li>
         <li>
-          <a href="#statistik">Statistik</a>
+          <a
+            href="#statistik"
+            class="css-4rbku5 r-1awozwy r-kdyh1x r-6koalj r-88pszg r-1p6iasa r-1pn2ns4"
+            >Statistik</a
+          >
         </li>
         <li>
-          <a href="#tim">Tim</a>
+          <a
+            href="#tim"
+            class="css-4rbku5 r-1awozwy r-kdyh1x r-6koalj r-88pszg r-1p6iasa r-1pn2ns4"
+            >Tim</a
+          >
         </li>
         <li>
-          <a href="#kontak">Kontak</a>
+          <a
+            href="#kontak"
+            class="css-4rbku5 r-1awozwy r-kdyh1x r-6koalj r-88pszg r-1p6iasa r-1pn2ns"
+            >Kontak</a
+          >
         </li>
       </ul>
     </nav>
   </header>
 
-  <body style="background-color: navy">
+  <body>
     <main>
       <section class="banner">
         <a href="">
@@ -76,64 +76,48 @@
         <p></p>
       </section>
 
-      <section id="hero" style="color: aliceblue">
+      <section id="hero">
         <div id="hero">
-          <h1 class="running-text"
-            style="
-              font-size: 39px;
-              font-weight: bold;
-              font-family:
-                &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
-            "
-          >
+          <h1 class="running-text font">
             Solusi Digital Terbaik untuk Bisnis Kamu
           </h1>
-          <p style="font-size: 25px">
+          <p>
             Kami membantu startup dan perusahaan berkembang dengan teknologi
             modern, tim berpengalaman, dan pendekatan yang berfokus pada hasil.
           </p>
 
-          <button
-            id="layanan"
-            style="font-size: 20px; background-color: cornflowerblue"
-          >
-            Lihat Layanan Kami
-          </button>
-          <button
-            id="contact"
-            style="font-size: 20px; background-color: cornflowerblue"
-          >
-            Hubungi Kami
-          </button>
+          <button id="layanan">Lihat Layanan Kami</button>
+          <button id="layanan">Hubungi Kami</button>
           <br />
           <br />
         </div>
       </section>
 
-      <section id="statistik" style="color: aliceblue">
-        <h1 style="text-align: center">Pencapaian Kami</h1>
+      <section id="statistik">
+        <h1>Pencapaian Kami</h1>
 
-        <div style="display: flex; padding: 20px 5%; text-align: center">
-          <article>
-            <strong style="font-size: 35px; padding: 100px"> 150+</strong>
-            <p style="font-size: 25px; padding: 5px">Proyek Selesai</p>
+        <div class="statistik-container">
+          <article class="stat-card">
+            <strong> 150+</strong>
+            <p>Proyek Selesai</p>
           </article>
 
-          <article>
-            <strong style="font-size: 35px; padding: 450px"> 80+</strong>
-            <p style="font-size: 25px; padding: 5px">Klien Puas</p>
+          <article class="stat-card">
+            <strong> 80+</strong>
+            <p>Klien Puas</p>
           </article>
-          <article>
-            <strong style="font-size: 35px; padding: 100px"> 5 Tahun</strong>
-            <p style="font-size: 25px; padding: 5px">Pengalaman</p>
+
+          <article class="stat-card">
+            <strong> 5 Tahun</strong>
+            <p>Pengalaman</p>
           </article>
         </div>
         <br />
       </section>
 
-      <section id="video" style="color: aliceblue">
+      <section id="video">
         <h2>Kenali TechStart Lebih Dekat</h2>
-        <p style="font-size: 20px">
+        <p>
           Tonton video singkat tentang bagaimana kami membantu bisnis kamu
           berkembang
         </p>
@@ -148,21 +132,21 @@
       </section>
       <br />
 
-      <section id="tim" style="padding: 10%; background-color: pink">
-        <h2 style="text-align: center">Tim Kami</h2>
-        <div style="display: flex; padding: 20px 5%; text-align: center">
-          <article>
+      <section id="tim">
+        <h2>Tim Kami</h2>
+        <div class="tim-container">
+          <article class="tim-card">
             <img
               src="https://cdn2.iconfinder.com/data/icons/business-man-8/512/7-1024.png"
               alt="male1"
               width="100px"
             />
             <h3>Andi Pratama</h3>
-            <p style="color: blue; font-weight: bold">CEO & Co-Founder</p>
-            <p>10 Tahun pengalaman di industri teknologi</p>
+            <p class="jabatan">CEO & Co-Founder</p>
+            <p class="pengalaman">10 Tahun pengalaman di industri teknologi</p>
           </article>
 
-          <article>
+          <article class="tim-card">
             <img
               style="border-radius: 50% 10% 5%"
               src="https://tse3.mm.bing.net/th/id/OIP.JGaelYo_mnUn1UL9BF3x1gHaHa?pid=Api&P=0&h=180"
@@ -170,24 +154,24 @@
               width="100px"
             />
             <h3>Budi Santoso</h3>
-            <p style="color: blue; font-weight: bold">CTO & Lead Developer</p>
-            <p>Spesialis arsitektur sistem dan cloud computing</p>
+            <p class="jabatan">CTO & Lead Developer</p>
+            <p  class="pengalaman">Spesialis arsitektur sistem dan cloud computing</p>
           </article>
 
-          <article>
+          <article class="tim-card">
             <img
               src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/7914838/woman-icon-md.png"
               alt="female"
               width="100px"
             />
             <h3>Citra Dewi</h3>
-            <p style="color: blue; font-weight: bold">Head of Design</p>
-            <p>Passionate tentang UX research dan accessible design</p>
+            <p class="jabatan">Head of Design</p>
+            <p class="pengalaman">Passionate tentang UX research dan accessible design</p>
           </article>
         </div>
       </section>
 
-      <section id="kontak" style="color: aliceblue">
+      <section id="kontak">
         <h2 style="text-align: center">Hubungi Kami</h2>
         <p>
           Ada pertanyaan atau ingin berdiskusi tentang proyek kamu? Kami siap
