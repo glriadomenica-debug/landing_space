@@ -20,6 +20,7 @@ body {
   color: white;
   cursor: pointer;
   transition: all 0.3 ease;
+  align-items: center;
 }
 #hero .running-text {
   position: relative;
